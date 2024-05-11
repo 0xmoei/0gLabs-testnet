@@ -290,3 +290,5 @@ rm -rf $HOME/.0gchain $HOME/0g-chain
 
 ## Check validators list in explorer
 https://explorer.coinhunterstr.com/0G-Newton/staking
+
+-------Thanks HerculesNode for the detailed guide-------
