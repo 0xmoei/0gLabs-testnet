@@ -245,7 +245,7 @@ echo "0x$(0gchaind debug addr $(0gchaind keys show CÜZDAN-ADINI-YAZ -a) | grep 
 ## Unjail Node (if your node is jailed)
 
 ```shell
-0gchaind tx slashing unjail --from CÜZDAN-ADINIZ --gas=500000 --gas-prices=99999neuron -y
+0gchaind tx slashing unjail --from WALLET_NAME --gas=500000 --gas-prices=99999neuron -y
 ```
 
 ## Active Validators list
