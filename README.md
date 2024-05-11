@@ -19,7 +19,7 @@ sudo apt update && \
 sudo apt install curl git jq build-essential gcc unzip wget lz4 -y
 ```
 
-## 🟢Install GO
+## Install GO
 ```shell
 cd $HOME && \
 ver="1.21.3" && \
@@ -32,7 +32,7 @@ source $HOME/.bash_profile && \
 go version
 ```
 
-## 🟢 Install 0G
+## Install 0G
 ```shell
 git clone -b v0.1.0 https://github.com/0glabs/0g-chain.git
 ./0g-chain/networks/testnet/install.sh
