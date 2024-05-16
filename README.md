@@ -185,17 +185,18 @@ sudo journalctl -u 0gchaind.service -f --no-hostname -o cat
 ```
 
 ## Export EVM public address and private key of the 0G wallet
+- replace WALLET_NAME
 
 - Public address:
 
 ```shell
-echo "0x$(0gchaind debug addr $(0gchaind keys show CÜZDAN-ADINI-YAZ -a) | grep hex | awk '{print $3}')"
+echo "0x$(0gchaind debug addr $(0gchaind keys show WALLET_NAME -a) | grep hex | awk '{print $3}')"
 ```
 
 - Private key:
   
 ```shell
-0gchaind keys unsafe-export-eth-key cüzdan-adi-yaz
+0gchaind keys unsafe-export-eth-key WALLET_NAME
 ```
 
 
